@@ -183,12 +183,6 @@ const generateHTML = (data) => {
               <div class="content"> Email: <a href="mailto:${data[i].email}">${data[i].email}</a></div>
             </div>
 
-            <div class="item">
-              <i class="building outline icon"></i>
-              <div class="content"> 
-              Office Number: ${data[i].officeNumber}
-              </div>
-            </div>
 
             <div class="item">
                 <i class="github icon"></i>
